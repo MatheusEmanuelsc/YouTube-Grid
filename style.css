@@ -1,0 +1,45 @@
+@import url(reset.css);
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    align-content: end;
+    
+}
+
+nav, #user{
+
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+
+
+
+#seach{
+    display: flex;
+    
+}
+#seach input{
+
+    
+    width: 40rem;
+    margin: 0;
+    gap: 0rem;
+}
+
+
+/* Conteúdo Principal */
+
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 1rem 4rem;
+}
+
+.cont nav{
+    display: grid;
+    grid-auto-rows: 2rem;
+}
